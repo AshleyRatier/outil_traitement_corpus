@@ -1,0 +1,67 @@
+---
+
+dataset_name: Barbie Movie Reviews
+tags:
+  - nlp
+  - sentiment-analysis
+  - classification
+dataset_summary: "Ce corpus contient des reviews du film Barbie ainsi que leur note associées et leur sentiment."
+dataset_curators:
+  - name: "Ashley RATIER"
+    email: "ashley.ratier@gmail.com"
+language: Anglais
+
+### Dataset Description
+
+Ce corpus contient des reviews du film Barbie ainsi que les notes associées et leur sentiment.
+
+- **Curated by:** Ashley RATIER
+- **Language(s):** Anglais
+- **License:** 
+
+
+## Uses
+
+### Direct Use
+
+Ce corpus a pour but de réaliser des analyses de corrélation de données, d'analyses diverses et de création de graphiques de représentation des résultats. 
+C'est à l'origine une classification de sentiments.
+
+## Dataset Structure
+
+Le corpus est structuré dans un tableau comprenant les colonnes suivantes : 
+
+- review : qui contient la critique
+- note : qui contient la note associée à la critique
+- label : qui contient le sentiment de la critique (positif ou négatif).
+
+Les données sont divisées en train et test.
+
+## Dataset Creation
+
+### Source Data
+
+Les données ont été collectées à partir de la page du film Barbie sur le site IMDb.
+
+#### Data Collection and Processing
+
+Les données ont été récoltées de sorte à ce qu'il y ait des données dans les deux classes. Les bibliothèques BeautifulSoup, Pandas et SpaCy ont été utilisées.
+
+#### Who are the source data producers?
+
+Les personnes à l'origine de ces données sont des utilisateurs d'IMDb qui ont réalisé les critiques.
+
+
+### Annotations
+
+#### Annotation process
+
+L'annotation a été réalisée avec SpaCy.
+
+#### Personal and Sensitive Information
+
+Le corpus ne contient pas de données personnelles et sensibles.
+
+## Dataset Card Contact
+
+ashley.ratier@gmail.com
