@@ -33,3 +33,7 @@ Le corpus regroupe des reviews de films qui ont été écrit entre 2006 et 2020 
 
 Lors de ce projet j'ai rencontré quelques difficultés. J'ai d'abord eu du mal à scrapper le web, je voulais au départ récupérer les données de plusieurs films. N'ayant pas réussi j'ai décidé de récupérer les critiques pour un seul film. 
 Ensuite j'ai rencontré des difficultés pour les calculs, je ne pense pas avoir eu des résultats très significatifs et que mes choix d'analyses soient très pertinents.
+Je n'ai pas réussi à diviser le corpus en train, test et dev, cela ne fonctionnait pas mais j'ai cependant supposé que les lignes pour le faire devaient ressembler à celles-ci : 
+
+train_data, temp_data = train_test_split(data, test_size=0.3, random_state=123)
+dev_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=123)
